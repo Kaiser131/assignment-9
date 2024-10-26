@@ -21,65 +21,6 @@ const Banner = () => {
                 <div className='list'>
 
                     {/* item */}
-                    <div className='item absolute inset-0'>
-                        <img className=' w-[100%] h-[100%] object-cover ' src={banner1} alt="" />
-                        {/* content */}
-                        <div className='content absolute top-[20%] w-[1040px] max-w-[80%] left-[50%] text-shadow-lg transform: translate-x-[-50%] pr-[30%] '>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 author font-bold'>L u n d e v</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 title font-bold text-7xl '>Design Slider</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 topic font-bold text-7xl text-orange-500 '>Animal</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 des'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae, aspernatur voluptates, saepe exercitationem veniam mollitia molestias porro placeat fugit a magni ut nostrum neque, expedita fuga quasi enim pariatur.</div>
-                            <div className=' translate-y-[50px] blur-[20px] opacity-0 btn btn-outline text-white mt-7'>
-                                <button >See More</button>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className='item absolute inset-0 '>
-                        <img className='w-[100%] h-[100%] object-cover ' src={banner2} alt="" />
-                        {/* content */}
-                        <div className='content absolute top-[20%] w-[1040px] max-w-[80%] left-[50%] text-shadow-lg transform: translate-x-[-50%] pr-[30%] '>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 author font-bold'>L u n d e v</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 title font-bold text-7xl '>Design Slider</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 topic font-bold text-7xl text-orange-500 '>Animal</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 des'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae, aspernatur voluptates, saepe exercitationem veniam mollitia molestias porro placeat fugit a magni ut nostrum neque, expedita fuga quasi enim pariatur.</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 btn btn-outline text-white mt-7'>
-                                <button>See More</button>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className='item absolute inset-0 '>
-                        <img className='w-[100%] h-[100%] object-cover ' src={banner3} alt="" />
-                        {/* content */}
-                        <div className='content absolute top-[20%] w-[1040px] max-w-[80%] left-[50%] text-shadow-lg transform: translate-x-[-50%] pr-[30%] '>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 author font-bold'>L u n d e v</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 title font-bold text-7xl '>Design Slider</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 topic font-bold text-7xl text-orange-500 '>Animal</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 des'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae, aspernatur voluptates, saepe exercitationem veniam mollitia molestias porro placeat fugit a magni ut nostrum neque, expedita fuga quasi enim pariatur.</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 btn btn-outline text-white mt-7'>
-                                <button>See More</button>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className='item absolute inset-0 '>
-                        <img className='w-[100%] h-[100%] object-cover ' src={banner4} alt="" />
-                        {/* content */}
-                        <div className='content absolute top-[20%] w-[1040px] max-w-[80%] left-[50%] text-shadow-lg transform: translate-x-[-50%] pr-[30%] '>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 author font-bold'>L u n d e v</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 title font-bold text-7xl '>Design Slider</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 topic font-bold text-7xl text-orange-500 '>Animal</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 des'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae, aspernatur voluptates, saepe exercitationem veniam mollitia molestias porro placeat fugit a magni ut nostrum neque, expedita fuga quasi enim pariatur.</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 btn btn-outline text-white mt-7'>
-                                <button>See More</button>
-                            </div>
-                        </div>
-                    </div>
-
                     <div className='item absolute inset-0 z-[1]'>
                         <img className='img5 w-[100%] h-[100%] object-cover ' src={banner2} alt="" />
                         {/* content */}
@@ -89,7 +30,7 @@ const Banner = () => {
                             <div className='translate-y-[50px] blur-[20px] opacity-0 topic font-bold text-7xl text-orange-500 '>PROPERTY</div>
                             <div className='translate-y-[50px] blur-[20px] opacity-0 des'>Welcome to a world where luxury meets lifestyle at [Website Name]. We specialize in showcasing the finest high-end real estate properties that define elegance, exclusivity, and refined living. With a carefully curated portfolio of premier estates, ranging from modern architectural masterpieces to timeless classic mansions, our website serves as your gateway to exceptional homes worldwide.</div>
                             <div className='translate-y-[50px] blur-[20px] opacity-0 button btn btn-outline text-white mt-7'>
-                                <button className=''>See More</button>
+                                <button className=''>See All</button>
                             </div>
                         </div>
                     </div>

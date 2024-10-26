@@ -7,6 +7,10 @@ export default {
   theme: {
     extend: {
 
+      fontFamily: {
+        sans: ['Roboto Slab', 'serif']
+      },
+
       textShadow: {
         sm: '1px 1px 2px rgba(0, 0, 0, 0.3)',
         DEFAULT: '2px 2px 4px rgba(0, 0, 0, 0.3)',
