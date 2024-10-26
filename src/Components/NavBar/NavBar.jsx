@@ -3,11 +3,11 @@ import { CgProfile } from "react-icons/cg";
 
 const NavBar = () => {
     return (
-        <div className="flex justify-between px-7 py-6 border ">
+        <div className="flex justify-between px-7 py-6 relative z-[100] text-white ">
 
-            <NavLink className='font-bold text-3xl' to='/'>Aura Realty</NavLink>
+            <NavLink className='font-bold text-3xl' to='/'>Skyline</NavLink>
 
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 ">
                 <Link to='/login'>Login</Link>
                 <div className="dropdown dropdown-end ">
                     <div tabIndex={0} className=" m-1"> <CgProfile className="text-4xl"></CgProfile></div>

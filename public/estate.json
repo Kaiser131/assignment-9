@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Seaside Villa",
+        "segment_name": "Luxury Homes",
+        "description": "An elegant seaside villa with panoramic ocean views and private beach access.",
+        "price": "$4,500,000",
+        "status": "sale",
+        "area": "3500 sq ft",
+        "location": "Malibu, California",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "home theater"
+        ],
+        "image": "https://example.com/images/seaside-villa.jpg"
+    },
+    {
+        "id": 2,
+        "estate_title": "Urban Penthouse",
+        "segment_name": "High-Rise Condos",
+        "description": "A modern penthouse located in the heart of the city with breathtaking skyline views.",
+        "price": "$3,200,000",
+        "status": "sale",
+        "area": "2800 sq ft",
+        "location": "New York, NY",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "private terrace",
+            "gym"
+        ],
+        "image": "https://example.com/images/urban-penthouse.jpg"
+    },
+    {
+        "id": 3,
+        "estate_title": "Countryside Estate",
+        "segment_name": "Mansions",
+        "description": "A serene countryside estate surrounded by nature, with modern amenities and expansive grounds.",
+        "price": "$2,850,000",
+        "status": "sale",
+        "area": "5000 sq ft",
+        "location": "Napa Valley, California",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "wine cellar"
+        ],
+        "image": "https://example.com/images/countryside-estate.jpg"
+    },
+    {
+        "id": 4,
+        "estate_title": "Luxury Beachfront Apartment",
+        "segment_name": "Beachfront Condos",
+        "description": "A sophisticated apartment with private beach access and ocean views.",
+        "price": "$1,500,000",
+        "status": "rent",
+        "area": "1500 sq ft",
+        "location": "Miami, Florida",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "swimming pool",
+            "fitness center"
+        ],
+        "image": "https://example.com/images/beachfront-apartment.jpg"
+    },
+    {
+        "id": 5,
+        "estate_title": "Historic Mansion",
+        "segment_name": "Luxury Homes",
+        "description": "A historic mansion with preserved architecture and modern upgrades, surrounded by manicured gardens.",
+        "price": "$5,000,000",
+        "status": "sale",
+        "area": "6000 sq ft",
+        "location": "Charleston, South Carolina",
+        "facilities": [
+            "living room",
+            "dining hall",
+            "kitchen",
+            "library",
+            "garden"
+        ],
+        "image": "https://example.com/images/historic-mansion.jpg"
+    },
+    {
+        "id": 6,
+        "estate_title": "Ski Chalet",
+        "segment_name": "Mountain Retreats",
+        "description": "A cozy ski chalet with rustic interiors and direct access to slopes.",
+        "price": "$3,500,000",
+        "status": "sale",
+        "area": "3200 sq ft",
+        "location": "Aspen, Colorado",
+        "facilities": [
+            "living room",
+            "fireplace",
+            "kitchen",
+            "sauna"
+        ],
+        "image": "https://example.com/images/ski-chalet.jpg"
+    },
+    {
+        "id": 7,
+        "estate_title": "Modern Loft",
+        "segment_name": "City Living",
+        "description": "A stylish modern loft with open spaces and high-end finishes, located in a bustling neighborhood.",
+        "price": "$2,200,000",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "San Francisco, California",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "office space",
+            "gym"
+        ],
+        "image": "https://example.com/images/modern-loft.jpg"
+    },
+    {
+        "id": 8,
+        "estate_title": "Desert Oasis",
+        "segment_name": "Luxury Villas",
+        "description": "An exclusive desert oasis with luxurious interiors and a private courtyard.",
+        "price": "$3,750,000",
+        "status": "sale",
+        "area": "4000 sq ft",
+        "location": "Scottsdale, Arizona",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "courtyard"
+        ],
+        "image": "https://example.com/images/desert-oasis.jpg"
+    },
+    {
+        "id": 9,
+        "estate_title": "Lakefront Cabin",
+        "segment_name": "Waterfront Retreats",
+        "description": "A charming lakefront cabin with a cozy interior and stunning lake views.",
+        "price": "$1,800,000",
+        "status": "rent",
+        "area": "2200 sq ft",
+        "location": "Lake Tahoe, California",
+        "facilities": [
+            "living room",
+            "fireplace",
+            "kitchen",
+            "deck"
+        ],
+        "image": "https://example.com/images/lakefront-cabin.jpg"
+    }
+]
