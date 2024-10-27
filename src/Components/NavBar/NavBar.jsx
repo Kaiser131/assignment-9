@@ -3,7 +3,7 @@ import { CgProfile } from "react-icons/cg";
 
 const NavBar = () => {
     return (
-        <div className="flex justify-between px-7 py-6 relative z-[100] text-white ">
+        <div className="flex justify-between px-7 py-6 relative z-[100] text-white bg-black bg-opacity-30 ">
 
             <NavLink className='font-bold text-3xl' to='/'>Skyline</NavLink>
 

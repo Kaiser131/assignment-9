@@ -7,6 +7,7 @@ import banner5 from '../../../public/images/luxury-banner--5.jpg';
 import './Banner.css';
 import { HiArrowSmallLeft } from "react-icons/hi2";
 import { HiArrowSmallRight } from "react-icons/hi2";
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -29,8 +30,8 @@ const Banner = () => {
                             <div className='translate-y-[50px] blur-[20px] opacity-0 title font-bold text-7xl '>TOP</div>
                             <div className='translate-y-[50px] blur-[20px] opacity-0 topic font-bold text-7xl text-orange-500 '>PROPERTY</div>
                             <div className='translate-y-[50px] blur-[20px] opacity-0 des'>Welcome to a world where luxury meets lifestyle at [Website Name]. We specialize in showcasing the finest high-end real estate properties that define elegance, exclusivity, and refined living. With a carefully curated portfolio of premier estates, ranging from modern architectural masterpieces to timeless classic mansions, our website serves as your gateway to exceptional homes worldwide.</div>
-                            <div className='translate-y-[50px] blur-[20px] opacity-0 button btn btn-outline text-white mt-7'>
-                                <button className=''>See All</button>
+                            <div>
+                                <Link className='translate-y-[50px] blur-[20px] opacity-0 button btn btn-outline px-7 text-xl text-white mt-7 font-bold' to='/estate'>See All</Link>
                             </div>
                         </div>
                     </div>

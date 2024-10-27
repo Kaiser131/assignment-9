@@ -14,7 +14,7 @@
             "kitchen",
             "home theater"
         ],
-        "image": "https://example.com/images/seaside-villa.jpg"
+        "image": "https://i.ibb.co.com/9skXjK4/card-7.jpg"
     },
     {
         "id": 2,
@@ -31,7 +31,7 @@
             "private terrace",
             "gym"
         ],
-        "image": "https://example.com/images/urban-penthouse.jpg"
+        "image": "https://i.ibb.co.com/RjqxG9r/card-8.jpg"
     },
     {
         "id": 3,
@@ -48,7 +48,7 @@
             "kitchen",
             "wine cellar"
         ],
-        "image": "https://example.com/images/countryside-estate.jpg"
+        "image": "https://i.ibb.co.com/n3RRbYp/card-3.jpg"
     },
     {
         "id": 4,
@@ -65,7 +65,7 @@
             "swimming pool",
             "fitness center"
         ],
-        "image": "https://example.com/images/beachfront-apartment.jpg"
+        "image": "https://i.ibb.co.com/r5ShCW4/card-5.jpg"
     },
     {
         "id": 5,
@@ -83,7 +83,7 @@
             "library",
             "garden"
         ],
-        "image": "https://example.com/images/historic-mansion.jpg"
+        "image": "https://i.ibb.co.com/s6KmCZp/card-10.jpg"
     },
     {
         "id": 6,
@@ -100,7 +100,7 @@
             "kitchen",
             "sauna"
         ],
-        "image": "https://example.com/images/ski-chalet.jpg"
+        "image": "https://i.ibb.co.com/xf4jJ3K/luxury-banner-4.jpg"
     },
     {
         "id": 7,
@@ -117,7 +117,7 @@
             "office space",
             "gym"
         ],
-        "image": "https://example.com/images/modern-loft.jpg"
+        "image": "https://i.ibb.co.com/mq2Vbqw/luxury-banner-2.jpg"
     },
     {
         "id": 8,
@@ -134,7 +134,7 @@
             "kitchen",
             "courtyard"
         ],
-        "image": "https://example.com/images/desert-oasis.jpg"
+        "image": "https://i.ibb.co.com/9skXjK4/card-7.jpg"
     },
     {
         "id": 9,
@@ -151,6 +151,6 @@
             "kitchen",
             "deck"
         ],
-        "image": "https://example.com/images/lakefront-cabin.jpg"
+        "image": "https://i.ibb.co.com/RjqxG9r/card-8.jpg"
     }
 ]
