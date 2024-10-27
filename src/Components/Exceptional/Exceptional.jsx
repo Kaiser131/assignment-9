@@ -11,14 +11,14 @@ const Exceptional = () => {
 
 
     return (
-        <div className='font-sans my-14'>
+        <div className='font-sans my-14 mx-10'>
 
             <div className='text-center space-y-5'>
                 <h1 className='text-4xl font-light  '>Exceptional properties around the world</h1>
                 <p className='text-slate-400'>Great cities or exclusive localities. Choose the luxury that suits you.</p>
             </div>
 
-            <div className='columns-3 max-w-[1050px]  my-8  mx-auto '>
+            <div className='columns-3 max-w-[1050px]  my-8  mx-auto  '>
                 <div className='relative'>
                     <img className='w-[350px] block mb-3' src={exception1} alt="" />
                     <p></p>
