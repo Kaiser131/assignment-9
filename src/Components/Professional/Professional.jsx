@@ -3,7 +3,7 @@ import { GiShoppingCart } from "react-icons/gi";
 
 const Professional = () => {
     return (
-        <div>
+        <div className="my-10">
 
             <div>
                 <div className='text-center space-y-5'>
@@ -12,7 +12,7 @@ const Professional = () => {
                 </div>
 
                 <div className=" my-10">
-                    <div className=" flex gap-10 justify-center ">
+                    <div className="flex flex-col md:flex-row gap-10 items-center justify-center ">
 
                         <div className="max-w-[460px] max-h-[254px] bg-black text-white items-center space-y-3 p-10  font-sans text-center">
                             <div className="flex justify-center text-5xl">

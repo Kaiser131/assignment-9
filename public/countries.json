@@ -1,164 +1,230 @@
-{
-    "offices": {
-        "North America": {
-            "United States": [
-                "New York",
-                "Los Angeles",
-                "Chicago",
-                "Miami",
-                "San Francisco",
-                "Houston",
-                "Dallas",
-                "Seattle"
-            ],
-            "Canada": [
-                "Toronto",
-                "Vancouver",
-                "Montreal",
-                "Calgary",
-                "Ottawa",
-                "Edmonton"
-            ],
-            "Mexico": [
-                "Mexico City",
-                "Guadalajara",
-                "Monterrey",
-                "Puebla",
-                "Cancún",
-                "Tijuana"
-            ]
-        },
-        "South America": {
-            "Brazil": [
-                "São Paulo",
-                "Rio de Janeiro",
-                "Brasília",
-                "Belo Horizonte",
-                "Salvador",
-                "Curitiba"
-            ],
-            "Argentina": [
-                "Buenos Aires",
-                "Córdoba",
-                "Rosario",
-                "Mendoza",
-                "La Plata",
-                "San Miguel de Tucumán"
-            ],
-            "Chile": [
-                "Santiago",
-                "Valparaíso",
-                "Concepción",
-                "Antofagasta",
-                "Viña del Mar",
-                "La Serena"
-            ]
-        },
-        "Europe": {
-            "United Kingdom": [
-                "London",
-                "Manchester",
-                "Edinburgh",
-                "Birmingham",
-                "Glasgow",
-                "Bristol"
-            ],
-            "France": [
-                "Paris",
-                "Lyon",
-                "Marseille",
-                "Nice",
-                "Toulouse",
-                "Nantes"
-            ],
-            "Germany": [
-                "Berlin",
-                "Munich",
-                "Frankfurt",
-                "Hamburg",
-                "Cologne",
-                "Stuttgart"
-            ]
-        },
-        "Africa": {
-            "South Africa": [
-                "Johannesburg",
-                "Cape Town",
-                "Durban",
-                "Pretoria",
-                "Port Elizabeth",
-                "Bloemfontein"
-            ],
-            "Nigeria": [
-                "Lagos",
-                "Abuja",
-                "Ibadan",
-                "Kano",
-                "Port Harcourt",
-                "Benin City"
-            ],
-            "Egypt": [
-                "Cairo",
-                "Alexandria",
-                "Giza",
-                "Luxor",
-                "Aswan",
-                "Sharm El Sheikh"
-            ]
-        },
-        "Asia": {
-            "China": [
-                "Beijing",
-                "Shanghai",
-                "Shenzhen",
-                "Guangzhou",
-                "Chengdu",
-                "Hangzhou"
-            ],
-            "India": [
-                "Mumbai",
-                "Delhi",
-                "Bangalore",
-                "Hyderabad",
-                "Chennai",
-                "Pune"
-            ],
-            "Japan": [
-                "Tokyo",
-                "Osaka",
-                "Yokohama",
-                "Nagoya",
-                "Sapporo",
-                "Fukuoka"
-            ]
-        },
-        "Australia": {
-            "Australia": [
-                "Sydney",
-                "Melbourne",
-                "Brisbane",
-                "Perth",
-                "Adelaide",
-                "Gold Coast"
-            ],
-            "New Zealand": [
-                "Auckland",
-                "Wellington",
-                "Christchurch",
-                "Hamilton",
-                "Dunedin",
-                "Tauranga"
-            ]
-        },
-        "Antarctica": {
-            "Research Stations": [
-                "McMurdo Station",
-                "Palmer Station",
-                "Amundsen-Scott South Pole Station",
-                "Concordia Station",
-                "Rothera Research Station",
-                "Neumayer Station III"
-            ]
-        }
+[
+    {
+        "continent": "North America",
+        "countries": [
+            {
+                "country": "United States",
+                "cities": [
+                    "New York",
+                    "Los Angeles",
+                    "Chicago",
+                    "Miami",
+                    "San Francisco",
+                    "Houston",
+                    "Dallas",
+                    "Seattle"
+                ]
+            },
+            {
+                "country": "Canada",
+                "cities": [
+                    "Toronto",
+                    "Vancouver",
+                    "Montreal",
+                    "Calgary",
+                    "Ottawa",
+                    "Edmonton"
+                ]
+            },
+            {
+                "country": "Mexico",
+                "cities": [
+                    "Mexico City",
+                    "Guadalajara",
+                    "Monterrey"
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "South America",
+        "countries": [
+            {
+                "country": "Brazil",
+                "cities": [
+                    "São Paulo",
+                    "Rio de Janeiro",
+                    "Brasília",
+                    "Belo Horizonte",
+                    "Salvador",
+                    "Curitiba"
+                ]
+            },
+            {
+                "country": "Argentina",
+                "cities": [
+                    "Buenos Aires",
+                    "Córdoba",
+                    "Rosario",
+                    "Mendoza",
+                    "La Plata",
+                    "San Miguel de Tucumán"
+                ]
+            },
+            {
+                "country": "Chile",
+                "cities": [
+                    "Santiago",
+                    "Valparaíso",
+                    "Concepción",
+                    "Antofagasta",
+                    "Viña del Mar"
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "Europe",
+        "countries": [
+            {
+                "country": "United Kingdom",
+                "cities": [
+                    "London",
+                    "Manchester",
+                    "Edinburgh",
+                    "Birmingham",
+                    "Glasgow",
+                    "Bristol"
+                ]
+            },
+            {
+                "country": "France",
+                "cities": [
+                    "Paris",
+                    "Lyon",
+                    "Marseille",
+                    "Nice",
+                    "Toulouse",
+                    "Nantes"
+                ]
+            },
+            {
+                "country": "Germany",
+                "cities": [
+                    "Berlin",
+                    "Munich",
+                    "Frankfurt",
+                    "Hamburg",
+                    "Cologne"
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "Africa",
+        "countries": [
+            {
+                "country": "South Africa",
+                "cities": [
+                    "Johannesburg",
+                    "Cape Town",
+                    "Durban",
+                    "Pretoria",
+                    "Port Elizabeth",
+                    "Bloemfontein"
+                ]
+            },
+            {
+                "country": "Nigeria",
+                "cities": [
+                    "Lagos",
+                    "Abuja",
+                    "Ibadan",
+                    "Kano",
+                    "Port Harcourt",
+                    "Benin City"
+                ]
+            },
+            {
+                "country": "Egypt",
+                "cities": [
+                    "Cairo",
+                    "Alexandria",
+                    "Luxor",
+                    "Aswan",
+                    "Sharm El Sheikh"
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "Asia",
+        "countries": [
+            {
+                "country": "China",
+                "cities": [
+                    "Beijing",
+                    "Shanghai",
+                    "Shenzhen",
+                    "Guangzhou",
+                    "Chengdu",
+                    "Hangzhou"
+                ]
+            },
+            {
+                "country": "India",
+                "cities": [
+                    "Mumbai",
+                    "Delhi",
+                    "Bangalore",
+                    "Hyderabad",
+                    "Chennai",
+                    "Pune"
+                ]
+            },
+            {
+                "country": "Japan",
+                "cities": [
+                    "Tokyo",
+                    "Osaka",
+                    "Yokohama",
+                    "Sapporo",
+                    "Fukuoka"
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "Australia",
+        "countries": [
+            {
+                "country": "Australia",
+                "cities": [
+                    "Sydney",
+                    "Melbourne",
+                    "Brisbane",
+                    "Perth",
+                    "Adelaide",
+                    "Gold Coast"
+                ]
+            },
+            {
+                "country": "New Zealand",
+                "cities": [
+                    "Auckland",
+                    "Wellington",
+                    "Christchurch",
+                    "Hamilton",
+                    "Dunedin",
+                    "Tauranga"
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "Antarctica",
+        "countries": [
+            {
+                "country": "Research Stations",
+                "cities": [
+                    "McMurdo Station",
+                    "Palmer Station",
+                    "Amundsen-Scott South Pole Station",
+                    "Concordia Station",
+                    "Rothera Research Station",
+                    "Neumayer Station III"
+                ]
+            }
+        ]
     }
-}
+]
