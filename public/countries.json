@@ -1,0 +1,164 @@
+{
+    "offices": {
+        "North America": {
+            "United States": [
+                "New York",
+                "Los Angeles",
+                "Chicago",
+                "Miami",
+                "San Francisco",
+                "Houston",
+                "Dallas",
+                "Seattle"
+            ],
+            "Canada": [
+                "Toronto",
+                "Vancouver",
+                "Montreal",
+                "Calgary",
+                "Ottawa",
+                "Edmonton"
+            ],
+            "Mexico": [
+                "Mexico City",
+                "Guadalajara",
+                "Monterrey",
+                "Puebla",
+                "Cancún",
+                "Tijuana"
+            ]
+        },
+        "South America": {
+            "Brazil": [
+                "São Paulo",
+                "Rio de Janeiro",
+                "Brasília",
+                "Belo Horizonte",
+                "Salvador",
+                "Curitiba"
+            ],
+            "Argentina": [
+                "Buenos Aires",
+                "Córdoba",
+                "Rosario",
+                "Mendoza",
+                "La Plata",
+                "San Miguel de Tucumán"
+            ],
+            "Chile": [
+                "Santiago",
+                "Valparaíso",
+                "Concepción",
+                "Antofagasta",
+                "Viña del Mar",
+                "La Serena"
+            ]
+        },
+        "Europe": {
+            "United Kingdom": [
+                "London",
+                "Manchester",
+                "Edinburgh",
+                "Birmingham",
+                "Glasgow",
+                "Bristol"
+            ],
+            "France": [
+                "Paris",
+                "Lyon",
+                "Marseille",
+                "Nice",
+                "Toulouse",
+                "Nantes"
+            ],
+            "Germany": [
+                "Berlin",
+                "Munich",
+                "Frankfurt",
+                "Hamburg",
+                "Cologne",
+                "Stuttgart"
+            ]
+        },
+        "Africa": {
+            "South Africa": [
+                "Johannesburg",
+                "Cape Town",
+                "Durban",
+                "Pretoria",
+                "Port Elizabeth",
+                "Bloemfontein"
+            ],
+            "Nigeria": [
+                "Lagos",
+                "Abuja",
+                "Ibadan",
+                "Kano",
+                "Port Harcourt",
+                "Benin City"
+            ],
+            "Egypt": [
+                "Cairo",
+                "Alexandria",
+                "Giza",
+                "Luxor",
+                "Aswan",
+                "Sharm El Sheikh"
+            ]
+        },
+        "Asia": {
+            "China": [
+                "Beijing",
+                "Shanghai",
+                "Shenzhen",
+                "Guangzhou",
+                "Chengdu",
+                "Hangzhou"
+            ],
+            "India": [
+                "Mumbai",
+                "Delhi",
+                "Bangalore",
+                "Hyderabad",
+                "Chennai",
+                "Pune"
+            ],
+            "Japan": [
+                "Tokyo",
+                "Osaka",
+                "Yokohama",
+                "Nagoya",
+                "Sapporo",
+                "Fukuoka"
+            ]
+        },
+        "Australia": {
+            "Australia": [
+                "Sydney",
+                "Melbourne",
+                "Brisbane",
+                "Perth",
+                "Adelaide",
+                "Gold Coast"
+            ],
+            "New Zealand": [
+                "Auckland",
+                "Wellington",
+                "Christchurch",
+                "Hamilton",
+                "Dunedin",
+                "Tauranga"
+            ]
+        },
+        "Antarctica": {
+            "Research Stations": [
+                "McMurdo Station",
+                "Palmer Station",
+                "Amundsen-Scott South Pole Station",
+                "Concordia Station",
+                "Rothera Research Station",
+                "Neumayer Station III"
+            ]
+        }
+    }
+}
