@@ -1,18 +1,25 @@
-import { useEffect, useState } from "react";
 
 import { CiCircleList } from "react-icons/ci";
 import { RxDropdownMenu } from "react-icons/rx";
 import List from "./List";
 import Footer from "../Footer/Footer";
+import { useLoaderData } from "react-router-dom";
 
 const EstateList = () => {
 
-    const [list, setList] = useState([]);
-    useEffect(() => {
-        fetch('estate.json')
-            .then(res => res.json())
-            .then(data => setList(data));
-    }, []);
+    // traditional Loader
+
+    // const [list, setList] = useState([]);
+    // useEffect(() => {
+    //     fetch('estate.json')
+    //         .then(res => res.json())
+    //         .then(data => setList(data));
+    // }, []);
+
+
+    // useLoader Hook
+
+    const list = useLoaderData();
 
     return (
         <div className=" ">

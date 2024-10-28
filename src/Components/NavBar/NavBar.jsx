@@ -9,9 +9,9 @@ const NavBar = () => {
 
             <div className="flex items-center gap-5 ">
                 <Link to='/login'>Login</Link>
-                <div className="dropdown dropdown-end ">
+                <div className="dropdown dropdown-end  ">
                     <div tabIndex={0} className=" m-1"> <CgProfile className="text-4xl"></CgProfile></div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                    <ul tabIndex={0} className="dropdown-content text-black menu bg-base-100  z-[1] w-52 p-2 shadow">
                         <li><a>Item 1</a></li>
                         <li><a>Item 2</a></li>
                     </ul>
