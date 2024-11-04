@@ -9,6 +9,10 @@ import {
 import Root from './Routes/Root/Root';
 import Home from './Components/Home/Home';
 import EstateList from './Components/EstateList/EstateList';
+import Details from './Components/EstateList/Details';
+import AuthProvider from './Components/Providers/AuthProvider/AuthProvider';
+import Login from './Components/Registration/Login/Login';
+import SignUp from './Components/Registration/SignUp/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +26,20 @@ const router = createBrowserRouter([
       {
         path: '/estate',
         element: <EstateList></EstateList>,
-        loader: () => fetch('estate.json')
+        loader: () => fetch('http://localhost:5000/estate')
+      },
+      {
+        path: '/details/:id',
+        element: <Details></Details>,
+        loader: ({ params }) => fetch(`/public/estate.json/${params.id}`)
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/register',
+        element: <SignUp></SignUp>
       }
     ]
   },
@@ -31,6 +48,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>,
 );

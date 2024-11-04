@@ -12,8 +12,8 @@ const NavBar = () => {
                 <div className="dropdown dropdown-end  ">
                     <div tabIndex={0} className=" m-1"> <CgProfile className="text-4xl"></CgProfile></div>
                     <ul tabIndex={0} className="dropdown-content text-black menu bg-base-100  z-[1] w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
+                        <li><a>Profile</a></li>
+                        <li><a>Bookmarks</a></li>
                     </ul>
                 </div>
             </div>

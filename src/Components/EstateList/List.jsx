@@ -6,6 +6,11 @@ import { Link } from "react-router-dom";
 const List = ({ list }) => {
 
     const { estate_title, area, segment_name, status, location, image, id } = list;
+    console.log(estate_title);
+
+    const bookmark = () => {
+        alert('added to bookmark');
+    };
 
     return (
         <Link to={`/details/${id}`}>
@@ -17,12 +22,12 @@ const List = ({ list }) => {
                         <h1 className="text-[#bd0021] text-2xl">{estate_title}</h1>
                         <button> <MdOutlineWorkspacePremium className="text-3xl hover:text-[#bd0021]"></MdOutlineWorkspacePremium></button>
                     </div>
-                    <p className="text-4xl flex gap-5">{segment_name} <span className="flex items-center gap-4 text-xl"><SiProtractor className="text-2xl"></SiProtractor> {area}</span> </p>
+                    <p className="text-4xl flex gap-5">{segment_name} <button onClick={bookmark} className="flex items-center gap-4 text-xl"><SiProtractor className="text-2xl"></SiProtractor> {area}</button> </p>
                     <p className="font-bold">Location: {location}</p>
 
                     <div className="flex items-center justify-between">
                         <p className="font-bold">Status: {status}</p>
-                        <button ><IoBookmarksOutline className="text-xl"></IoBookmarksOutline></button>
+                        <button ><IoBookmarksOutline className="text-xl hover:text-blue-500"></IoBookmarksOutline></button>
                     </div>
 
                 </div>
@@ -31,5 +36,7 @@ const List = ({ list }) => {
         </Link>
     );
 };
+
+
 
 export default List;

@@ -4,6 +4,7 @@ import { RxDropdownMenu } from "react-icons/rx";
 import List from "./List";
 import Footer from "../Footer/Footer";
 import { useLoaderData } from "react-router-dom";
+// import { useEffect, useState } from "react";
 
 const EstateList = () => {
 
@@ -20,6 +21,7 @@ const EstateList = () => {
     // useLoader Hook
 
     const list = useLoaderData();
+    console.log(list);
 
     return (
         <div className=" ">
@@ -32,7 +34,6 @@ const EstateList = () => {
                     <div>
 
                         <div className="flex my-5 justify-between bg-white p-3">
-
                             <div className="flex items-center gap-3 text-[#bd0021] ">
                                 <CiCircleList className="text-3xl"></CiCircleList>
                                 <p className="text-xl">LIST</p>
